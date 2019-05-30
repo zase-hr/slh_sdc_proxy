@@ -5,7 +5,7 @@
     "address": "http://localhost:3001/photos"
   },
   {
-    "route": "/info",
+    "route": "/listings",
     "address": "http://localhost:3002/listings"
   },
   {

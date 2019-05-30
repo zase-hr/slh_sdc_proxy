@@ -1,0 +1,30 @@
+.logo{
+  color: #FF5A5F !important;
+  font-size: 34px !important;
+  display: block;
+  margin-top: 5px
+}
+.titles {
+  font-size: 34px !important;
+}
+.booking1{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  bottom: 20px;
+}
+/* .photo {
+  margin-top: 20px;
+} */
+.info{
+  padding-left: 50px;
+}
+
+.reviews{
+  padding-left: 150px;
+}
+
+.homes {
+  display: fixed;
+}

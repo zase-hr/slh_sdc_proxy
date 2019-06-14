@@ -9,11 +9,11 @@
     "address": "http://localhost:3002/listings"
   },
   {
-    "route": "/room",
+    "route": "/rooms",
     "address": "http://localhost:3003/room"
   },
   {
-    "route": "/booking",
+    "route": "/bookings",
     "address": "http://localhost:3003/booking"
   },
   {

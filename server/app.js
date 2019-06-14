@@ -16,7 +16,7 @@ for (route of routes) {
     proxy({
       target: route.address,
       pathRewrite: (path, req) => {
-        return path.split('/').slice(2).join('/'); // Could use replace, but take care of the leading '/'
+        return '?id=' + req.query.id; // Could use replace, but take care of the leading '/'
       }
     })
   );

@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const proxy = require('http-proxy-middleware');
 const path = require('path');
@@ -16,7 +17,7 @@ for (route of routes) {
     proxy({
       target: route.address,
       pathRewrite: (path, req) => {
-        return '?id=' + req.query.id; // Could use replace, but take care of the leading '/'
+        return '?id=' + req.query.id;
       }
     })
   );
